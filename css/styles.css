@@ -67,14 +67,14 @@
   opacity: 0.5;
 }
 
-@media (min-aspect-ratio: 10/9) {
+@media (min-aspect-ratio: 16/9) {
   #videoBG {
     width: 100%;
     height: auto;
   }
 }
 
-@media (max-aspect-ratio: 10/9) {
+@media (max-aspect-ratio: 16/9) {
   #videoBG {
     width: auto;
     height: 100%;
@@ -140,7 +140,6 @@
 #contact {
   background: #f9f7f7;
 }
-
 
 .proposal {
   background: rgba(0, 0, 0, 0.5);
