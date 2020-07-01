@@ -66,21 +66,21 @@
   opacity: 0.5;
 }
 
-@media (min-aspect-ratio: 16/9) {
+@media (min-aspect-ratio: 18/9) {
   .videoBG {
     width: 100%;
     height: auto;
   }
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 18/9) {
   .videoBG {
     width: auto;
     height: 100%;
   }
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 1080px) {
   .videoBG {
     display: none;
   }
@@ -88,7 +88,7 @@
     background-image: url(../images/poster.jpg);
     color: white;
   }
-} 
+}  */
 
 .example_c {
   color: #494949 !important;
