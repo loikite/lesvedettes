@@ -38,7 +38,8 @@
   position: relative;
   text-align: center;
   width: auto;
-  height: 90vh;
+  height: 70vh;
+  top: 150px;
   
 }
 
@@ -85,7 +86,6 @@
   }
   .intro {
     background-image: url(../images/poster.jpg);
-    position: rabsolute;
     color: white;
   }
 } 
