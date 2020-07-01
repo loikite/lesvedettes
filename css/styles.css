@@ -31,7 +31,7 @@
 
 #intro {
   position: absolute;
-  width: 100%;
+  width: auto;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -39,7 +39,6 @@
   flex-direction: column;
   overflow: hidden;
   background-position: center; 
-  background-attachment: inherit;
   background-repeat: no-repeat; 
 }
 
@@ -49,6 +48,7 @@
   font-size: 1.5rem;
   padding: 20px;
   margin: 15px;
+  justify-content: center;
 }
 
 #intro a {
@@ -236,8 +236,8 @@
 .flex-item {
   background: #72807c;
   padding: 5px;
-  width: 300px;
-  height: 420px;
+  width: 500px;
+  height: auto;
   margin-top: 15px;
   line-height: 150px;
   color: white;
