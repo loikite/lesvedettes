@@ -1,0 +1,252 @@
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 5.5;
+}
+
+.section-heading {
+  font-size: 10rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0.5em;
+  border-top: 5px solid rgb(145, 51, 7);
+  border-bottom: 5px solid rgb(145, 51, 7);
+  background-color: #FFFEF4;
+}
+
+.navbar-brand {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Parisienne", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Intro */
+
+#intro {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  background-position: center; 
+  background-attachment: inherit;
+  background-repeat: no-repeat; 
+}
+
+#intro h1 {
+  position: relative;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+  margin: 15px;
+}
+
+#intro a {
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
+  margin: 15px;
+}
+
+#videoBG {
+  display: flex;
+  position: relative;
+  z-index: -1;
+  background-color: lightblue;
+  opacity: 0.5;
+}
+
+@media (min-aspect-ratio: 10/9) {
+  #videoBG {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 10/9) {
+  #videoBG {
+    width: auto;
+    height: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #videoBG {
+    display: none;
+  }
+  #intro {
+    background-image: url(../images/poster.jpg);
+    position: relative;
+    color: white;
+  }
+} 
+
+.example_c {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.example_c:hover {
+  color: #ffffff !important;
+  background: #494949;
+  border-color: #72807c;
+  transition: all 0.4s ease 0s;
+}
+
+/* Main */
+
+#propos {
+  background: #f9f7f7;
+ }
+
+#cantine {
+  background: #f9f7f7;
+  position: relative;
+}
+
+#cocktails {
+  background: #f9f7f7;
+}
+
+#tapas {
+  background: #f9f7f7;
+}
+
+#menu {
+  background: #f9f7f7;
+}
+
+#plan {
+  background: #f9f7f7;
+}
+
+#contact {
+  background: #f9f7f7;
+}
+
+
+.proposal {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: montserrat;
+  font-size: 3em;
+  color: #white;
+  margin-top: 5rem;
+}
+
+.col-md-6 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.proposal-text {
+  background: rgba(0, 0, 0, 0.5);
+  font-family: roboto;
+  font-size: 1em;
+  color: #white;
+}
+
+#cantine {
+  background-image: url("../images/main2.png") no-repeat center center/cover;
+}
+
+.row {
+  padding: 2rem;
+  text-align: center;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.picture {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.what-text {
+  font-family: "roboto";
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem 0.1rem;
+  color: #72807c;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "roboto";
+  color: #72807c;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.footer-copyright {
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+         and if we allow the items to wrap 
+       * Remember this is the same as:
+       * flex-direction: row;
+       * flex-wrap: wrap;
+       */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: #72807c;
+  padding: 5px;
+  width: 300px;
+  height: 420px;
+  margin-top: 15px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-item img {
+  max-width: 100%;
+}
