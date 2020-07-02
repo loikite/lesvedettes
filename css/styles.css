@@ -37,22 +37,27 @@
 .intro {
   position: relative;
   text-align: center;
+  
   width: auto;
-  height: 70vh;
-  top: 150px;
+  height: 100%;
+  top: 0px;
 }
 
 .intro h1 {
-  font-size: 1.5rem;
-  padding: 20px;
-  margin: 15px;
+  font-size: 1rem;
+  padding-top: 150px;
+  margin-top: 0px;
   justify-content: center;
+  vertical-align: middle;
+  top: 100px;
 }
 
 .intro a {
   font-size: 1rem;
   padding: 20px;
   margin: 15px;
+  top: 100px;
+  vertical-align: middle;
 }
 
 .videoBG {
@@ -79,13 +84,13 @@
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 760px) {
   .videoBG {
     display: none;
   }
   .intro {
     background-image: url(../images/poster.jpg);
-    color: white;
+    color: grey;
   }
 } 
 
