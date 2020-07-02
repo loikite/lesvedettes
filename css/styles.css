@@ -33,6 +33,18 @@
   height: 100vh;
 }
 
+h4 {
+  font: montserrat;
+  color: #666464;
+}
+
+p {
+  font: montserrat;
+  color: #afabab;
+}
+
+
+
 /* Intro */
 .intro {
   position: relative;
@@ -170,7 +182,7 @@
 .row {
   padding: 2rem;
   text-align: center;
-}
+  }
 
 .carousel {
   width: 100%;
@@ -185,13 +197,12 @@
 }
 
 .map {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
   display: flex;
-  flex-flow: wrap;
-  padding: 0;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;   
+    
 }
 
 .what-text {
