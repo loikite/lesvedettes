@@ -40,7 +40,6 @@
   width: auto;
   height: 70vh;
   top: 150px;
-  
 }
 
 .intro h1 {
@@ -80,7 +79,7 @@
   }
 }
 
-/* @media (max-width: 1080px) {
+@media (max-width: 1080px) {
   .videoBG {
     display: none;
   }
@@ -88,7 +87,7 @@
     background-image: url(../images/poster.jpg);
     color: white;
   }
-}  */
+} 
 
 .example_c {
   color: #494949 !important;
@@ -180,6 +179,16 @@
   height: auto;
 }
 
+.map {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-flow: wrap;
+  padding: 0;
+  justify-content: center;
+}
+
 .what-text {
   font-family: "roboto";
   color: #ffffff;
@@ -203,6 +212,10 @@
   content: "";
   clear: both;
   display: block;
+}
+
+.anchor {
+  padding-bottom: 10rem;
 }
 
 .footer-copyright {
